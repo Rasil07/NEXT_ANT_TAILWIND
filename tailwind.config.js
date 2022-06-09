@@ -11,11 +11,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        // if we want to have custom google fonts
         sans: ["Russo One", ...defaultTheme.fontFamily.sans],
         fancy: ["Dancing Script"],
       },
     },
     colors: {
+      // if we want to add custom colors
       ...defaultTheme.colors,
       primary: "#441151",
       secondary: "#ccc",
